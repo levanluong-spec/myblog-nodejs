@@ -2,10 +2,10 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "this is my blog",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --inspect main.js"
+    "start": "nodemon --inspect src/main.js"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,11 @@
   },
   "homepage": "https://github.com/levanluong-spec/myblog-nodejs#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "morgan": "^1.10.0"
   }
 }
-
